@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#EED4E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+img{
+    width: 458px;
+    height: 458px;
+}
+.content{
+    width: 458px;
+    height: 458px;
+    position:relative;
+    margin-top:30px;
+    
+}
+/*==== QUADRADO_01 ====*/
+.content .quadrado_01{
+    width:66px;
+    height: 66px;
+    background: black;
+    position: absolute;
+    top: 64px;
+    left: 64px;
+}
+.content .quadrado_01_cor_01{
+    width:22px;
+    height: 22px;
+    background:#F16E2D;
+    position: absolute;
+    top:64px ;
+    left: 64px;
+}
+.content .quadrado_01_cor_02{
+    width:22px;
+    height: 22px;
+    background: #F07DAF;
+    position: absolute;
+    top:108px ;
+    left: 64px;
+}
+.content .quadrado_01_cor_03{
+    width:22px;
+    height: 22px;
+    background: #71C694;
+    position: absolute;
+    top:86px ;
+    left: 108px;
+}
+
+/*==== QUADRADO_02 ====*/
+.content .quadrado_02{
+    width:66px;
+    height: 66px;
+    background: black;
+    position: absolute;
+    top: 129px;
+    left: 129px;
+}
+.content .quadrado_02_cor_01{
+    width:22px;
+    height: 22px;
+    background: #3B7DC3;
+    position: absolute;
+    top:151px ;
+    left:129px;
+}
+
+/*==== QUADRADO_03 ====*/
+.content .quadrado_03{
+    width:66px;
+    height: 66px;
+    background: black;
+    position: absolute;
+    top: 194px;
+    left: 194px;
+}
+.content .quadrado_03_cor_01{
+    width:22px;
+    height: 22px;
+    background: #E82D8E;
+    position: absolute;
+    top:216px ;
+    left:238px;
+}
+/*==== QUADRADO_04 ====*/
+.content .quadrado_04{
+    width:66px;
+    height: 66px;
+    background: black;
+    position: absolute;
+    top: 129px;
+    left: 259px;
+}
+.content .quadrado_04_cor_01{
+    width:22px;
+    height: 22px;
+    background: #EB7339;
+    position: absolute;
+    top:173px ;
+    left:281px;
+}
+.content .quadrado_04_cor_02{
+    width:22px;
+    height: 22px;
+    background: #7778B7;
+    position: absolute;
+    top:129px ;
+    left:259px;
+}
+/*==== QUADRADO_05 ====*/
+.content .quadrado_05{
+    width:66px;
+    height: 66px;
+    background: black;
+    position: absolute;
+    top: 64px;
+    left: 324px;
+}
+.content .quadrado_05_cor_01{
+    width:22px;
+    height: 22px;
+    background: #ED2B89;
+    position: absolute;
+    top:108px ;
+    left:346px;
+}
+.content .quadrado_05_cor_02{
+    width:22px;
+    height: 22px;
+    background: #F07FB1;
+    position: absolute;
+    top:86px ;
+    left:368px;
+}.content .quadrado_05_cor_03{
+    width:22px;
+    height: 22px;
+    background: #8CB1E0;
+    position: absolute;
+    top:64px ;
+    left:346px;
+}
+/*==== QUADRADO_06 ====*/
+.content .quadrado_06{
+    width:66px;
+    height: 66px;
+    background: black;
+    position: absolute;
+    top: 324px;
+    left: 324px;
+}
+.content .quadrado_06_cor_01{
+    width:22px;
+    height: 22px;
+    background: #7977B9;
+    position: absolute;
+    top:345px ;
+    left:368px;
+}
+.content .quadrado_06_cor_02{
+    width:22px;
+    height: 22px;
+    background: #397AC0;
+    position: absolute;
+    top:368px ;
+    left:324px;
+}
+/*==== QUADRADO_07 ====*/
+.content .quadrado_07{
+    width:66px;
+    height: 66px;
+    background: black;
+    position: absolute;
+    top: 259px;
+    left: 259px;
+}
+.content .quadrado_07_cor_01{
+    width:22px;
+    height: 22px;
+    background: #75C49B;
+    position: absolute;
+    top:281px ;
+    left:281px;
+}
+/*==== QUADRADO_08 ====*/
+.content .quadrado_08{
+    width:66px;
+    height: 66px;
+    background: black;
+    position: absolute;
+    top: 259px;
+    left: 129px;
+}
+.content .quadrado_08_cor_01{
+    width:22px;
+    height: 22px;
+    background: #88B1DF;
+    position: absolute;
+    top:281px ;
+    left:129px;
+}
+.content .quadrado_08_cor_02{
+    width:22px;
+    height: 22px;
+    background: #EC2B8E;
+    position: absolute;
+    top:259px ;
+    left:151px;
+}
+/*==== QUADRADO_09 ====*/
+.content .quadrado_09{
+    width:66px;
+    height: 66px;
+    background: black;
+    position: absolute;
+    top: 324px;
+    left: 64px;
+}
+.content .quadrado_09_cor_01{
+    width:22px;
+    height: 22px;
+    background: #F46C34;
+    position: absolute;
+    top:345px ;
+    left:64px;
+}.content .quadrado_09_cor_02{
+    width:22px;
+    height: 22px;
+    background: #6FC696;
+    position: absolute;
+    top:368px ;
+    left:86px;
+}
+p{
+    color: black;
+     position: absolute;
+     font-size: 20px;
+     padding: 0; 
+     margin: 0;
+     text-transform: uppercase;
+     font-family: 'Courier New', 'Courier', sans-serif;
+     letter-spacing: .6em;
+     padding-bottom: 10px;
+     width: 280px;
+     border-bottom:  1px solid black;
+     top: 460px;
+     left:550px;
+    }  
+    
